@@ -1,0 +1,74 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  margin: 0 auto 1em auto;
+  width: 800px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+	color: #8c8b8b;
+	font-size: 0.75em;
+	vertical-align: text-top;
+}
+
+hr.hline{
+	border-top: 1px solid #8c8b8b;
+}
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.socialMedia {
+	width: 25%;
+	text-align: center;
+}
+
+.socialMedia:hover {
+	color: black;
+	text-shadow: 0px;
+}
+
+[class*="zocial-"]:before {
+	color: #8c8b8b;
+	font-size: 3em;
+	display: inline-block;
+	font-family: 'zocial', sans-serif;
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+a:hover [class*="zocial-"]:before {
+	color: black;
+}
+
+.head {
+	display: inline-block;
+	color: black;
+}
